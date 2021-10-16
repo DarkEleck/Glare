@@ -15,7 +15,7 @@ public class Main implements ModInitializer {
     public static final EntityType<GlareEntity> GLARE = Registry.register(
             Registry.ENTITY_TYPE,
             new Identifier("glare", "glare"),
-            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, GlareEntity::new).dimensions(EntityDimensions.fixed(0.75f, 0.75f)).build()
+            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, GlareEntity::new).dimensions(EntityDimensions.fixed(0.625f, 1.0625f)).build()
     );
 
     @Override
